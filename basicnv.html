@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basic Newsvendor Model</title>
+            <meta charset="UTF-8">
+            <link href="files/index.css" rel="stylesheet">
+
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+          
+    </head>
+    <body>
+        <section id='main'>
+            <section id=first >
+                <div class="logo">
+                   <p><h1 style="text-align: left; color: rgb(10, 10, 10);font-style:italic;">Basic Newsvendor Model
+                    <img src="files/logo.png' %}"  alt="logo" style="vertical-align:middle;float: right;"></h1></p> 
+                </div>
+    
+                <div class="topnav">
+                   <p> </p> 
+                </div>
+    
+                <div>
+                    <h1 style="font-style:italic;">Thanks for accepting our request!</h1>
+                </div>
+                
+
+                <div class="intro">
+                    <h3>
+                        Introduction: Basic Newsvendor Model
+                    </h3>
+                    <h5>
+                        In three behavioral laboratory experiments, we compare newsvendor ordering decisions made directly tonewsvendor ordering decisions made in a decomposed way by soliciting point forecasts, uncertainty judgments,and service level decisions. Decomposing orders in such a way can lead to performance improvements comparedto ordering directly. However, we also demonstrate that if the underlying demand uncertainty is too high, or if thecost structure emphasizes underage costs, decomposition may fail as a decision approach. Under such conditions,decision makers are prone to incorporate too much random judgment error or set service levels too high, whichreduces the efficacy of this decision approach. We further demonstrate that if accompanied by decision support inthe form of suggested quantities, task decomposition becomes the better performing approach to decision makingmore generally. Decision support and task decomposition therefore appear as complementary methods to improvedecision performance
+                    </h5>    
+                </div>
+                <div>
+                    <button onclick="document.getElementById('ethics').style.display='block'" style="width:auto;">Read Ethics</button>
+                </div>
+                <section id='ethics' class="modal">
+                    <div class="modal-content">
+                            <h2>Ethics </h2>
+                        <div style="border:3px solid rgb(0, 183, 255) ;margin: auto;">
+                            <p>The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+                            <p>The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+                            <p>The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+                            <p>The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+                            <p>The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+                            <p>The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+                            <p>The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+                        </div>
+                        <div>
+                            <button onclick="document.getElementById('ethics').style.display='none'" style="width:auto;">Close</button>
+                        </div>
+                    </div> 
+                </section>
+                <div>
+                    <h4>This survey takes approximately 5 mins.</h4>
+                </div>
+                <div class="footer">
+                    <h3><label for="email">Enter your Email:</label>
+                    <input type="email" id="email" name="email">
+                    <p><button id="firstsubmit" style="width:auto;">Next</button></p>
+                    </h3>
+                </div>
+            </section>
+
+            <section id="second">
+                <div class="logo">
+                    <p><h1 style="text-align: left; color: rgb(10, 10, 10);font-style:italic;">Basic Newsvendor Model
+                     <img src="files/logo.png"  alt="logo" style="vertical-align:middle;float: right;"></h1></p> 
+                 </div>
+     
+                 <div class="topnav">
+                    <p> </p> 
+                 </div>
+
+                <h1 style="text-align: center;">Demographics</h1>
+                 
+                <div class="card">
+                    <img src="files/demographics1.png" alt="Demographics" style="width:100%">
+                    <div class="container">
+                        <label for="name">Enter your Name</label>
+                        <input type="text" id="name" name="name">
+            
+                        <div class="row">
+                            <div class="column">
+                                <div>
+                                <p><label for="gender">Please select your gender:</label></p>
+                                <select id="gender" name="gender"  >
+                                    <option disabled selected value> -- select an option -- </option>
+                                    <option value="male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                  </select>
+                                </div>
+        
+                                <div>
+                                 <p><label for="gender">Please select your age:</label></p> 
+                                 <input type="number" id="age" name="age" min = "1">
+                                </div>
+        
+                            </div>
+                            <div class="column">
+                                <div>
+                               <p><label for="organisation">Please select your organisation:</label></p> 
+                                <select id="organisation" name="organisation">
+                                    <option disabled selected value> -- select an option -- </option>
+                                    <option value="Management">Management</option>
+                                    <option value="Engineering">Engineering</option>
+                                    <option value="Other">Other</option>
+                                  </select>
+                                </div>
+                                <div>
+                                
+                                <p> <label for="designation">Please select your designation:</label></p>   
+                                <select id="designation" name="designation">
+                                    <option disabled selected value> -- select an option -- </option>
+                                    <option value="Student">Student</option>
+                                    <option value="Professor">Professor</option>
+                                    <option value="Other">Other</option>
+                                  </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+
+                <p><button id="secondsubmit" style="width:auto;">Next</button></p> 
+            </section>
+
+            <section id="third">
+                
+                <div class="logo">
+                    <p><h1 style="text-align: left; color: rgb(10, 10, 10);font-style:italic;">Basic Newsvendor Model
+                     <img src="files/logo.png"  alt="logo" style="vertical-align:middle;float: right;"></h1></p> 
+                 </div>
+     
+                 <div class="topnav">
+                    <p> </p> 
+                 </div>
+                
+                <div style="align-content:left;">
+                    <h1><p><label style="text-align: left;">Round :  </label><label id="round" style="text-align:left">1</label></p></h1>
+                </div>
+                
+                <div class="row">
+                    <div class="column">
+                        
+                        <div class="card">
+                            <div id="chartdiv" style="height:500px;width:600px; "></div>
+                            <div class="container">
+                            </div>
+                          </div>
+                          
+
+                    </div>
+                    
+                
+                    <div class="column" >
+
+                        <div class="card">
+                           
+                            <div class="container"> 
+                                <table style="width:100%; margin-top:100px;">
+                                    <tr>
+        
+                                        <td>
+                                            <p><h3><label for="forecast">Point Forecast</label>
+                                                <input type="number" id="forecast" name="point_forecast"></h3></p>    
+                                        </td>
+
+                                    </tr>
+
+
+                                </table>
+                            </div>
+                           </div>
+
+                      
+
+                        <p><button id="roundSub" style="width:auto;">Next</button></p>
+                        </table>
+                    </div>
+                    
+                </div>
+                
+            </section> 
+            </form>
+
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        
+        <script>
+            var user=new Object();
+            var storedData=[];
+            var rno=[];
+            var plot1;
+            
+            var layout = {
+                    title: 'Demand Pattern',
+                    xaxis: {
+                        title: 'Week Number'
+                    },
+                    yaxis: {
+                        title: 'Demand'
+                    }
+                    };
+            
+            function renderGraph()
+            {
+                plot1=Plotly.newPlot( 'chartdiv', [{
+                x: rno,
+                y: storedData }], layout );
+            }
+
+            document.addEventListener('DOMContentLoaded',()=>{
+                var modal=document.getElementById('ethics');
+                window.onclick=function(event){
+                if(event.target==modal){
+                    modal.style.display="none";
+                }
+                return false;
+            }
+
+            document.getElementById('firstsubmit').onclick=function(){
+                
+                user.email=document.getElementById('email').value;
+                $.ajax(
+                {
+                    type:"GET",
+                    url: "https://newsvendor.herokuapp.com/basicnv/emailAuth",
+                    data:{
+                             email: user.email
+                    },
+                    success: function( data ) 
+                    {
+                        if(data=='False')
+                        {
+                            document.getElementById('first').style.display='none';
+                            document.getElementById('second').style.display='block';
+                            
+                        }
+                        else
+                        {
+                            document.getElementById('email').value='';
+                            alert("You have already taken the survey. ")
+                        }
+                    }
+                 })
+                return false;
+            }
+            
+            
+            document.getElementById('secondsubmit').onclick=function(){
+                 
+                user.email=document.getElementById('email').value;
+                user.name=document.getElementById("name").value;
+                user.gender=document.getElementById('gender').value;
+                user.age=document.getElementById('age').value;
+                user.organisation=document.getElementById('organisation').value;
+                user.designation=document.getElementById('designation').value;
+                $.ajax(
+                {
+                    type:"GET",
+                    url: "https://newsvendor.herokuapp.com/basicnv/userRegister",
+                    data:{
+                            email:user.email,
+                            name:user.name,
+                            gender:user.gender,
+                            age:user.age,
+                            organisation:user.organisation,
+                            designation:user.designation,
+                    },
+                    success: function( data ) 
+                    {
+                            uid = data['uid'];
+                            currid = data['rid'];
+                            actualdemand = data['actualdemand']
+                            storedData=actualdemand;
+                            for(i=1;i<=currid;i++)
+                            {
+                                rno.push(i);
+                            }
+                            document.getElementById('second').style.display='none';
+                            document.getElementById('third').style.display='block';
+                            document.getElementById('chartdiv').style.display='block';
+                            document.getElementById('round').innerHTML=data['rid'];[]
+                            renderGraph();
+                    }
+                })
+                return false;
+            }
+
+            document.getElementById('roundSub').onclick=function(){
+
+                var round=new Object();
+                round.forecast=document.getElementById('forecast').value;
+
+
+                $.ajax(
+                {
+                    type:"GET",
+                    url: "https://newsvendor.herokuapp.com/basicnv/roundData",
+                    data:{
+                        uid:uid,
+                        rid:currid,
+                        point_forecast:round.forecast,
+                         
+                    },
+                    success: function( data ) 
+                    {
+                            act_demand=data['actualdemand'];
+                            currid = data['rid'];
+                            storedData.push(act_demand);
+                            rno.push(currid);
+
+                            if(data['actualdemand'])
+                            {
+                            alert("Actual demand is "+act_demand+ "!");
+                            document.getElementById('forecast').value = '';
+                            renderGraph();
+                            document.getElementById('third').style.display='block';
+                            document.getElementById('round').innerHTML=data['rid'];
+                            document.getElementById('forecast').value="";
+
+                            }
+                            else{
+                                alert("Thank you for taking part in the survey. You will be receiving an email shortly");
+                                location.reload();
+                            }
+                    },
+                    error: function(XMLHttpRequest, textStatus, errorThrown) 
+                    { 
+                        alert("Status: " + textStatus); alert("Error: " + errorThrown); 
+                    }   
+                })
+                return false;
+            }
+        
+            })
+        </script>
+    </body>
+</html>
