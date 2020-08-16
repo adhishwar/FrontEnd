@@ -183,13 +183,13 @@
                                     </td>
                                     <td>
                                         <h3><p><label for="LB">Lower Bound</label></p><p>
-                                            <input type="number" id="LB" name="LB" onchange="calculate()"> 
+                                            <input type="number" id="LB" name="LB" oninput="calculate();show_cost()" onchange="calculate()"> 
                                             </p></h3>
                                     </td>
                                 </tr>
                                     <td>
                                         <h3><p><label for="UB">Upper Bound</label></p><p>
-                                            <input type="number" id="UB" name="UB" onclick="show_cost()">
+                                            <input type="number" id="UB" name="UB" >
                                             </p></h3>
                                     </td>
                                     <td>
@@ -373,13 +373,17 @@
                             document.getElementById('UB').value="";
                             document.getElementById('fill').value="";
 
-                            if(data.even==false){
+                            if(data['even'])
+                            {
+                                if(data.even==false){
                                 document.getElementById('even').style.display="block";
+                                }
+                                else if(data.even==true){
+                                    document.getElementById('even').style.display="none";
+                                }
                             }
-                            else if(data.even==true){
-                                document.getElementById('even').style.display="none";
-                            }
-                            else{
+                            else
+                            {
                                 alert("Thank you for taking part in the survey. You will be receiving an email shortly");
                                 location.reload();
                             }
